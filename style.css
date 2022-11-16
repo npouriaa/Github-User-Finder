@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #0D1117;
+    color: #fff;
+}
+
+.header{
+    width: 700px;
+    height: 120px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.header .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header input{
+    margin-top: 5px;
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+.header button{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    width: 110px;
+    height: 45px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: #3ab751;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.header button:hover{
+    background-color: #29863a;
+}
+
+.header button:hover .svg{
+    transform: scale(1.3);
+}
+
+.header button svg{
+    height: 25px;
+    transition: all .3s;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    background-color: #161B22;
+    margin: 0 auto;
+    border:1px solid #9b9999;
+    border-radius: 15px;
+}
+
+.user-info .user-header{
+    width: 100%;
+    height: 40%;
+}
+
+.user-header .userimage{
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-header .userimage img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user-header .username{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-header .username .join-date{
+    color: #a4a7aa;
+    margin-top: 5px;
+}
+
+.user-header .username .join-date .join-since{
+    font-weight: bold;
+    color: #1074e7;
+}
+
+.user-body{
+
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+.user-body .section{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.user-body .section p{
+    width: 100%;
+    height: 30px;
+    text-transform: lowercase;
+    color: #c1c5c8;
+}
+
+.user-body .section p .value{
+    font-weight: bold;
+    color: #1074e7;
+}
